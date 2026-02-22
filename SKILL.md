@@ -1,3 +1,8 @@
+---
+name: bmad-method
+description: Use BMad (Breakthrough Method of Agile AI Driven Development) framework for AI-driven development. Use for: architecture analysis, sprint planning, story generation, PRD creation, and full development workflows. Requires coding-agent skill with Claude Code.
+---
+
 # BMad Method Skill
 
 > Use BMad framework for AI-driven development with autonomous agent workflows.
