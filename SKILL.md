@@ -7,6 +7,16 @@ description: Use BMad (Breakthrough Method of Agile AI Driven Development) frame
 
 > Use BMad framework for AI-driven development with autonomous agent workflows.
 
+**For detailed reference, see:**
+- [docs/reference/commands.md](docs/reference/commands.md) - Complete command reference
+- [docs/reference/agents.md](docs/reference/agents.md) - Available agents
+- [docs/how-to/install-bmad.md](docs/how-to/install-bmad.md) - Detailed installation guide
+- [docs/tutorials/getting-started.md](docs/tutorials/getting-started.md) - Quick start
+
+## DEPENDENCY
+
+> Use BMad framework for AI-driven development with autonomous agent workflows.
+
 ## DEPENDENCY
 
 **This skill requires coding-agent skill with Claude Code installed.**
