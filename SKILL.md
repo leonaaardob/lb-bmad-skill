@@ -15,10 +15,6 @@ description: "Use BMad (Breakthrough Method of Agile AI Driven Development) fram
 
 ## DEPENDENCY
 
-> Use BMad framework for AI-driven development with autonomous agent workflows.
-
-## DEPENDENCY
-
 **This skill requires coding-agent skill with Claude Code installed.**
 - Claude Code must be installed (`~/.local/bin/claude`)
 - Use `bash pty:true` for all Claude Code invocations
@@ -38,6 +34,8 @@ Each phase produces documents that become context for the next phase.
 ## Installation
 
 To use BMad in a project:
+
+> ⚠️ **Security Note:** `npx bmad-method install` fetches code from npm. Only run this if you trust the BMad package. Review the package before installing.
 
 ```bash
 cd ~/project && npx bmad-method install
@@ -145,8 +143,10 @@ Use `background:true` only when:
 
 To avoid Claude Code blocking on permission requests:
 
+> ⚠️ **Security Note:** Using `--dangerously-skip-permissions` or `--permission-mode bypassPermissions` suppresses permission checks. Use with caution - only for trusted code execution. For production workflows, prefer default permissions or validate the code first.
+
 ```bash
-# Skip all permission prompts
+# Skip all permission prompts (use with caution!)
 claude --dangerously-skip-permissions "prompt"
 
 # Or use specific permission mode
